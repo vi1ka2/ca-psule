@@ -16,7 +16,7 @@ const userRoutes = require('./routes/users');
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: 'https://https://hilarious-rolypoly-bebc9b.netlify.app/' }));
+app.use(cors({ origin: 'https://fancy-biscuit-54f447.netlify.app/' }));
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
