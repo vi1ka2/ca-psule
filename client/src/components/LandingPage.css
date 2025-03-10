@@ -1,0 +1,100 @@
+.landing-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* Use a creative background image from Unsplash */
+  background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fhd-wallpaper-desktop-oxvrn&psig=AOvVaw2MmNeqEEFV6mH5QudtzRwF&ust=1741680867512000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjZ5f-I_4sDFQAAAAAdAAAAABAJ') no-repeat center center/cover;
+}
+
+.landing-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.923);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.landing-overlay h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.landing-overlay p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.landing-buttons .btn {
+  padding: 12px 24px;
+  margin: 0 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #1d80d7;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #ff3b2d;
+}
+
+.btn-secondary {
+  background-color: #1d80d7;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: #43a047;
+}
+
+.landing-features {
+  margin-top: 40px;
+  background: rgb(79, 90, 25);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.landing-features h2 {
+  margin-bottom: 15px;
+}
+
+.landing-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.landing-features li {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .landing-overlay h1 {
+    font-size: 2.5rem;
+  }
+  .landing-overlay p {
+    font-size: 1.2rem;
+  }
+  .landing-buttons .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+  

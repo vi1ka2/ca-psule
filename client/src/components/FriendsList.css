@@ -1,0 +1,73 @@
+/* src/components/FriendsList.css */
+.friends-list-container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.friends-list-container h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.friend-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.friend-item:hover {
+  background-color: #f7f7f7;
+}
+
+.friend-item span {
+  font-size: 1rem;
+  color: #333;
+}
+
+.friend-item button {
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.friend-item button:hover {
+  background-color: #1976d2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .friends-list-container {
+    padding: 10px;
+  }
+  
+  .friend-item {
+    padding: 8px;
+  }
+  
+  .friend-item span {
+    font-size: 0.9rem;
+  }
+  
+  .friend-item button {
+    padding: 4px 8px;
+    font-size: 0.8rem;
+  }
+}
+
+
+
+
+  

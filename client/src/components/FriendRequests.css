@@ -1,0 +1,64 @@
+.friend-requests-container {
+    display: flex;
+    min-height: 100vh;
+    background: #f5f5f5;
+  }
+  
+  .friend-requests-content {
+    flex: 1;
+    padding: 2rem;
+    margin-left: 80px;
+  }
+  
+  .friend-requests-content h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .friend-requests-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend-requests-content li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .friend-requests-content .actions button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .friend-requests-content .actions button:first-child {
+    background: #4caf50;
+    color: #fff;
+  }
+  
+  .friend-requests-content .actions button:first-child:hover {
+    background: #43a047;
+  }
+  
+  .friend-requests-content .actions button:last-child {
+    background: #e74c3c;
+    color: #fff;
+  }
+  
+  .friend-requests-content .actions button:last-child:hover {
+    background: #c0392b;
+  }
+  
+  @media (max-width: 768px) {
+    .friend-requests-content {
+      margin-left: 0;
+      padding: 1rem;
+    }
+  }
+
+  
