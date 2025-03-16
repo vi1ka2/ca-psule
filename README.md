@@ -13,9 +13,8 @@ A full-stack MERN application that allows users to send messages to their future
 - [Deployment](#deployment)
 - [API Endpoints](#api-endpoints)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
 - [License](#license)
-- [Backend Architecture Overview](#backend-architecture-overview)
+  
 
 ---
 
@@ -163,7 +162,6 @@ time-capsule-app/
 
 ## 📸 Screenshots
 
-*(Add your screenshots here)*
 
 - **Login Page**
 - ![image](https://github.com/user-attachments/assets/dd9369ff-1507-474c-b3fa-c20f3784ab1e)
