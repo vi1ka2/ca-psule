@@ -74,11 +74,26 @@ exports.rejectFriendRequest = async (req, res) => {
 
 exports.getFriendsList = async (req, res) => {
   try {
-    const userId = req.user.id;
+    const userId = req.user?.id;  // Ensure req.user exists
+
+    if (!userId) {
+      return res.status(401).json({ msg: 'Unauthorized: No user ID found' });
+    }
+
+    console.log(`Fetching friends for user ID: ${userId}`);
+
     const user = await User.findById(userId).populate('friends', 'name email');
+
+    if (!user) {
+      console.log('User not found in database.');
+      return res.status(404).json({ msg: 'User not found' });
+    }
+
+    console.log(`User found: ${user.name}, Friends count: ${user.friends.length}`);
+
     res.json(user.friends || []);
   } catch (error) {
     console.error('Error fetching friends list:', error);
-    res.status(500).json({ msg: 'Server error' });
+    res.status(500).json({ msg: 'Server error', error: error.message });
   }
 };
