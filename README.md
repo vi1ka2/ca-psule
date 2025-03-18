@@ -1,22 +1,6 @@
-`
 # 🕰️ Time Capsule MERN App
 
 A full-stack MERN application that allows users to send messages to their future selves or friends through real-time chat and scheduled “capsules.” The app also supports friend management, profile viewing, and a leveling system based on the number of capsules sent.
-
----
-
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Tech Stack & Architecture](#tech-stack--architecture)
-- [Project Structure](#project-structure)
-- [Deployment](#deployment)
-- [API Endpoints](#api-endpoints)
-- [Screenshots](#screenshots)
-- [License](#license)
-  
-
----
 
 ## ✨ Features
 
@@ -176,6 +160,9 @@ time-capsule-app/
 ## 📝 License
 
 This project is licensed under the [MIT License]
----
+
+##Link
+https://magical-macaron-ffa94c.netlify.app
+
 
 
