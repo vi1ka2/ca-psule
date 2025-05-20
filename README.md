@@ -162,7 +162,7 @@ time-capsule-app/
 This project is licensed under the [MIT License]
 
 ##Link
-https://magical-macaron-ffa94c.netlify.app
+https://timecapsulee.netlify.app
 
 
 
